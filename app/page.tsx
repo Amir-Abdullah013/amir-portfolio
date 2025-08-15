@@ -253,7 +253,7 @@ export default function Portfolio() {
                     >
                       <div className="flex items-center justify-between">
                         <span className="text-sm text-gray-200">{s.name}</span>
-                        <MoveRight className="h-4 w-4 opacity-0 transition group-hover:translate-x-1 group-hover:opacity-100" />
+                        
                       </div>
                       <div className="mt-3 h-1 w-full scale-x-0 rounded bg-gradient-to-r from-blue-400 to-emerald-400 transition-transform duration-300 group-hover:scale-x-100" />
                     </div>
@@ -313,16 +313,16 @@ export default function Portfolio() {
       {/* Skills */}
       <section id="skills" className="py-16 md:py-24">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-white">Skills</h2>
+          <h2 className="text-3xl font-bold mb-8 text-white ml-8">Skills</h2>
 
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 px-6 ">
             {skills.map((s, index) => (
               <div
                 key={`${s.name}-${index}`}
                 onClick={() =>
                   setSelectedSkill(s.name === selectedSkill ? null : s.name)
                 }
-                className="cursor-pointer group rounded-2xl border border-white/10 bg-gray-900/50 p-4 transition hover:-translate-y-1 hover:bg-gray-900/70"
+                className="cursor-pointer group rounded-2xl border border-blue-400/60 bg-gray-900/50 p-4 transition hover:-translate-y-1 hover:bg-gray-900/70 shadow-[0_0_10px_rgba(59,130,246,0.7)] hover:shadow-[0_0_20px_rgba(59,130,246,1)]"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-200">{s.name}</span>
@@ -401,7 +401,7 @@ export default function Portfolio() {
         <Container>
           <SectionTitle
             title="Contact"
-            subtitle="Let&apos;s build something together"
+            subtitle="Let's build something together"
           />
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <form
