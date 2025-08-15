@@ -10,7 +10,6 @@ import {
   ExternalLink,
   Code2,
   Briefcase,
-  Sparkles,
   MoveRight,
 } from "lucide-react";
 
@@ -133,7 +132,6 @@ export default function Portfolio() {
         <Container>
           <div className="flex h-16 items-center justify-between">
             <a href="#" className="group inline-flex items-center gap-2">
-             
               <span className="text-sm font-medium tracking-wide text-gray-300 group-hover:text-white">
                 Amir Abdullah
               </span>
@@ -178,7 +176,7 @@ export default function Portfolio() {
                 transition={{ duration: 0.6 }}
                 className="text-4xl font-bold tracking-tight md:text-5xl"
               >
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <span className="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
                   Amir Abdullah
                 </span>
@@ -275,7 +273,7 @@ export default function Portfolio() {
             <div className="md:col-span-2">
               <div className="prose prose-invert max-w-none text-gray-300">
                 <p>
-                  I'm Amir Abdullah, a web developer with{" "}
+                  I&apos;m Amir Abdullah, a web developer with{" "}
                   <strong>1 year</strong> of hands‑on experience building
                   responsive, accessible, and performant web apps. I enjoy
                   crafting clean UI, scalable architecture, and smooth UX with
@@ -403,7 +401,7 @@ export default function Portfolio() {
         <Container>
           <SectionTitle
             title="Contact"
-            subtitle="Let’s build something together"
+            subtitle="Let&apos;s build something together"
           />
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <form
@@ -462,9 +460,7 @@ export default function Portfolio() {
                   <Linkedin className="h-4 w-4" /> LinkedIn
                 </a>
               </div>
-              <div className="mt-6 rounded-xl border border-white/10 bg-gray-900/80 p-4">
-                
-              </div>
+              <div className="mt-6 rounded-xl border border-white/10 bg-gray-900/80 p-4"></div>
             </div>
           </div>
         </Container>
