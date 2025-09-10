@@ -83,6 +83,13 @@ const skills = [
 
 const projects = [
   {
+    title: "BA E-commerce Store",
+    desc: "Fully Functional Responsive E-commerce Store with Product Management, Cart, Checkout, and Admin Product Management.",
+    stack: ["Next.js", "Tailwind", "Stripe"],
+    github: "https://github.com/Amir-Abdullah013/ba-sports-ecommerce-site/",
+    demo: "https://ba-ecommerce-store.vercel.app/",
+  },
+  {
     title: "E‑commerce Store",
     desc: "Responsive storefront with product browsing, cart, checkout flow, and admin product management.",
     stack: ["Next.js", "Tailwind", "Stripe"],
@@ -103,13 +110,7 @@ const projects = [
     github: "https://github.com/Amir-Abdullah013/whatsapp-clone-tailwind",
     demo: "https://whatsapp-clone-tailwind.vercel.app/",
   },
-  {
-    title: "Bank Management System",
-    desc: "A full‑stack system to manage accounts, transactions, and user authentication with role‑based access.",
-    stack: ["Node.js", "Express", "MongoDB", "React"],
-    github: "https://github.com/your-username",
-    demo: "#",
-  },
+  
 ];
 
 // --------- Page ---------
