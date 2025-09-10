@@ -87,7 +87,7 @@ const projects = [
     desc: "Fully Functional Responsive E-commerce Store with Product Management, Cart, Checkout, and Admin Product Management.",
     stack: ["Next.js", "Tailwind", "Stripe"],
     github: "https://github.com/Amir-Abdullah013/ba-sports-ecommerce-site/",
-    demo: "https://ba-ecommerce-store.vercel.app/",
+    demo: "https://ba-sports-ecommerce-site.vercel.app/",
   },
   {
     title: "E‑commerce Store",
